@@ -68,21 +68,23 @@
       </div>
     </nav>
 
+<h1>TES</h1>
+    
     <div class="container-fluid p-0">
-<div class="" id="content">
-</div>
-    </div>
-    <script type="text/javascript">
-      function openContent(target) {
-        $.ajax({
-          url:target+'.php',
-          method: 'post',
-          data:null
-        }).done(function(data) {
-          $('#content').html(data);
-        });
-      }
-    </script>
+      <div class="" id="content">
+        </div>
+      </div>
+      <script type="text/javascript">
+        function openContent(target) {
+          $.ajax({
+            url:target+'.php',
+            method: 'post',
+            data:null
+          }).done(function(data) {
+            $('#content').html(data);
+          });
+        }
+      </script>
     <!-- Bootstrap core JavaScript -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
